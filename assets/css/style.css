@@ -1,124 +1,51 @@
-
-* {
-margin: 0;
-padding: 0;
-box-sizing: border-box;
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0;
 }
 
-body {
-    padding: 0;
-    margin: 0;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 18px;
-    line-height: 150%;
-    background-color:lightblue;
-    color: black;
-
-    /* Header Elements Start Here */
-}
-header {
-  padding: 10px 15px 20px 25px;
-  background-color: #5d5c61;
-}
-
-header h1 {
-  font-weight: bold;
-  font-size: 36px;
-  color:  rgb(202, 153, 161);
-  margin: 0;
-  display: inline;
-}
-
-header a {
-  color: rgb(202, 153, 161);
-  text-decoration: none;
-}
-
-header nav {
-  float: right;
-  margin: 7px 0;
-}
-
-header nav ul li {
-  display:inline;
-  margin: 0 30px;
-  font-weight: bolder;
-  font-size: 22px;
-}
-/* Header Ends Here!*/
-
-
-/* Footer Starts Here! */
-footer {
-  background: #5d5c61;
+/* Style the navigation bar */
+.navbar {
   width: 100%;
-  padding: 40px 35px;
-  position:absolute;
-  bottom: 0;
+  background-color: #555;
+  overflow: auto;
+  
 }
-footer h2 {
-  display:inline;
-  color: rgb(202, 153, 161);
-  font-size: 30px;
-  margin: 0;
-  position:absolute;
-  bottom: 0;
+.navbrand {
+  padding: 60px;
 }
-footer div {
-  float: right;
-  line-height: 1.5;
-  color: rgb(202, 153, 161); 
-  position:absolute;
-  bottom: 0;
-}
-/* Footer Ends Here! */
-
-/* Box designs*/
-.workreport {
-  padding: 20px;
-  background: #5d5d5d;
-  width: 500px;
-  border-style: solid;
-  border: width 3px;
-  border-color: #024e76;
-  position: absolute;
-  top: 30%;
-  left: 20px; 
-}
-
 .ledwall {
-  padding: 20px;
-  background: #5d5d5d;
-  width: 500px;
-  border-style: solid;
-  border: width 3px;
-  border-color: #024e76;
   position: absolute;
-  top: 50%;
-  left: 20px;
+  text-align: center;
+  color: black;
+}
+)
+.jumbotron {
+  color: blue;
+  background-image: url("./images/blue-chevron-diagonal-striped-seamless-pattern-background-suitable-for-fashion-textiles-graphics-2E3XJDG.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
 }
 
-.military {
-  padding: 20px;
-  background: #5d5d5d;
-  width: 500px;
-  border-style: solid;
-  border: width 3px;
-  border-color: #024e76;
-  position: absolute;
-  top: 73%;
-  left: 20px;
-}
 
-.hero-cta {
-  padding: 20px;
-  background: #5d5d5d;
-  width: 500px;
-  border-style: solid;
-  border: width 3px;
-  border-color: #024e76;
-  position: absolute;
-  top: 10%;
-  left: 1000px;
 }
-
+.row.content {height: 450px}
+  
+.sidenav {
+  padding-top: 20px;
+  background-color: #f1f1f1;
+  height: 100%;
+}
+  footer {
+    background-color: #555;
+    color: white;
+    padding: 15px;
+  }
+   /* On small screens, set height to 'auto' for sidenav and grid */
+   @media screen and (max-width: 767px) {
+    .sidenav {
+      height: auto;
+      padding: 15px;
+    }
+    .row.content (height:auto;)

@@ -1,43 +1,106 @@
-.hero {
-    background-position: bottom;
-    height: auto;
-    text-align: center;
-    margin-bottom: 40px;
-  }
+
+  /* Header Ends Here!*/
   
-  .page-title {
-    color: #fce138;
-    display: inline-block;
-    border-bottom: 4px solid #fce138;
-    padding: 0 80px 15px 80px;
-    font-weight: normal;
-    font-size: 42px;
-    font-style: italic;
-  }
   
-  .secondary-content {
-    width: 80%;
-    margin: 0 auto;
-    color: #024e76;
+  /* Footer Starts Here! */
+  footer {
+    background: #5d5c61;
+    width: 100%;
+    padding: 40px 35px;
+    position:absolute;
+    bottom: 0;
+    float: bottom;
+    display: flex;
+    justify-content: flexwrap;
+    
   }
+  footer h2 {
+    display:
+    color: rgb(202, 153, 161);
+    font-size: 30px;
+    margin: 0;
+    position:absolute;
+    bottom: 0;
   
-  .secondary-content h3 {
-    font-size: 25px;
-    margin: 20px 0;
   }
-  
-  .secondary-content p {
-    font-size: 16px;
+  footer div {
+   
     line-height: 1.5;
-    margin: 20px 0;
+    color: rgb(202, 153, 161); 
+    position:absolute;
+    bottom: 0;
+    
+  }
+  /* Footer Ends Here! */
+  
+  /* Box designs*/
+  .workreport {
+    padding: 20px;
+    background: #5d5d5d;
+    width: 500px;
+    border-style: solid;
+    border: width 3px;
+    border-color: #024e76;
+    position: absolute;
+    top: 30%;
+    left: 20px; 
+    display: flex; flex-direction: column;
   }
   
-  .secondary-content ul {
-    margin: 15px 20px;
+  .ledwall {
+    padding: 20px;
+    background: #5d5d5d;
+    width: 500px;
+    border-style: solid;
+    border: width 3px;
+    border-color: #024e76;
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    display: flex; flex-direction: column;
   }
   
-  .secondary-content li {
-    color: #39a6b2;
-    margin: 10px 0;
+  .military {
+    padding: 20px;
+    background: #5d5d5d;
+    width: 500px;
+    border-style: solid;
+    border: width 3px;
+    border-color: #024e76;
+    position: absolute;
+    top: 73%;
+    left: 20px;
+    display:flex; flex-direction: column;
+    align-content: stretch;
   }
   
+  .hero-cta {
+    padding: 20px;
+    background: #5d5d5d;
+    width: 500px;
+    border-style: solid;
+    border: width 3px;
+    border-color: #024e76;
+    position: absolute;
+    top: 10%;
+    left: 1000px;
+    display: flex; flex-direction: column;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  /* Extra small devices (phones, 600px and down) */
+  @media only screen and (max-width: 600px) 
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) 
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) 
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) 
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) 
