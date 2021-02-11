@@ -18,25 +18,42 @@
   text-align: center;
   color: black;
 }
-)
+
 .jumbotron {
-  color: blue;
-  background-image: url("./images/blue-chevron-diagonal-striped-seamless-pattern-background-suitable-for-fashion-textiles-graphics-2E3XJDG.jpg");
-  background-position: center;
+  color: black;
+  background-position: left;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
+  padding-left: 40px;
+  height: 150px;
+background-color:blue;
+}
+
+.aboutme {
+  background-position:left;
+  text-align: left; 
+  padding-left: 10px;
+  padding-block: 10px 29px 10px;
+}
+.v1 {
+  position: absolute;
+  border-left: 6px solid grey;
+  height: 300px;
+  left: 30%;
+  margin-left: -3px;
+  top: 205px;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
 }
 
 
-}
-.row.content {height: 450px}
-  
-.sidenav {
-  padding-top: 20px;
-  background-color: #f1f1f1;
-  height: 100%;
-}
   footer {
     background-color: #555;
     color: white;
@@ -48,4 +65,4 @@
       height: auto;
       padding: 15px;
     }
-    .row.content (height:auto;)
+   
