@@ -34,17 +34,24 @@
 border-top-right-radius: 6px solid green;
 height: 500px;}*/
 
-.bg-info {
-  color: white;
-  background: repeating-linear-gradient(
-    45deg,
-    #606dbc,
-    #606dbc 10px,
-    #465298 10px,
-    #465298 20px
-  );
-}
 
+.waveimg {
+  background-image:url("../images/wave.jpg");
+  height: 300px;
+  width: 100%;
+  background-size:cover;
+  background-repeat: no-repeat;  
+}
+.col{
+  height: 100%;
+}
+.row {
+  height: 100%;
+}
+.wavebox {
+  height: 100%;
+  width: 200px;
+  background-color: turquoise;
 }
 
 /*This column aligns the images from left to right*/
